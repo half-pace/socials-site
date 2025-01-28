@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+.container {
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+}
+
+.profile {
+    background: white;
+    width: 300px;
+    height: 400px;
+    margin: 200px;
+    border-radius: 20px;
+}
+
+.socials {
+    background: white;
+    width: 300px;
+    height: 400px;
+    margin: 200px;
+    border-radius: 20px;
+}
+
+.profile-img {
+    height: 200px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 20px 20px 0 0;
+}
+
+.social-img {
+    background-color: aqua;
+    height: 150px;
+    margin-bottom: 15px;
+    border-radius: 20px 20px 0 0;
+}
+
+.img-1 {
+    background-image: url('profile.jpg');
+}
