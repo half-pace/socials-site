@@ -31,10 +31,12 @@ body {
 }
 
 .profile-img {
-    height: 200px;
-    margin-bottom: 15px;
+    height: 150px;
+    margin-bottom: 20px;
+    margin-right: 150px;
     background-size: cover;
-    border-radius: 20px 20px 0 0;
+    border-radius: 20px 0px 0px 0;
+    border:0.5px solid aliceblue;
 }
 
 .social-img {
